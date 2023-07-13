@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SII</title>
+    <link rel="shortcut icon" href="img/SII logo favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">SII</h2>
+            </div>
+            
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#nosotros" class="nav__links">Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#servicios" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#productos" class="nav__links">Productos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./img/x.svg" alt="Empresas" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./img/menu.svg" alt="Menú" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container" id="inicio">
+            <h1 class="hero__title">Servicios de Ingeniería Industrial</h1>
+            <p class="hero__paragraph">Somos especialistas, sabemos cómo hacerlo.</p>
+            <a href="#" class="cta">Comencemos</a>
+        </section>
+    </header>
+    <main>
+        <section class="container about" id="nosotros">
+            <h2 class="subtitle">Certifique con nosotros</h2>
+            
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./img/conversation.svg" height="30px" class="about__icon">
+                    <h3 class="about__title">Quienes Somos</h3>
+                    <p class="about__paragraph">Somos profesionales de Ingeniería Industrial con especialización en diferentes disciplinas como la Certificación de Sistema de Gestión, Ingeniería en la Calidad, Mejora de Procesos, Seguridad e Higiene en el Trabajo y Ambiente con amplia experiencia en empresas nacionales e internacionales.</p><br><br><br>
+                </article>
+            
+                <article class="about__icons">
+                    <img src="./img/extension.svg" height="30px" class="about__icon">
+                    <h3 class="about__title">Misión</h3>
+                    <p class="about__paragraph">Nos dedicamos a colaborar para que las organizaciones encuentren el camino para que sus productos y servicios puedan ser posicionados en mercados más exigentes. <br><br>
+                        Además nos proponemos ser una Empresa Líder en Consultoría colaborando con las organizaciones para que puedan proveer productos y servicios para mejorar la calidad de vida de la sociedad.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Certifique con nosotros</h2>
+                    <p class="knowledge__paragraph">En SII brindamos servicio para la certificación de las normas internacionales ISO. Contamos con más de 15 años de experiencia en la implementación, mantenimiento y mejora en diferentes tipos de organizaciones.</p>
+                    <a href="#" class="cta">Quiero saber más</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./img/computer 2.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container" id="productos">
+            <h2 class="subtitle">Adquirí el manual oficial de la norma que querés certificar</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">ISO 9001</p>
+                    <h3 class="price__price">$9900</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Gestión de la calidad</p>
+                        <p class="price__features">Productos</p>
+                        <p class="price__features">Servicios</p>
+                    </div>
+
+                    <a href="/CRUD/productos.html" class="price__cta">Comprar</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">ISO 14001</p>
+                    <h3 class="price__price">$9900</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Gestión ambiental</p>
+                        <p class="price__features">Procesos</p>
+                        <p class="price__features">Impacto social</p>
+                    </div>
+
+                    <a href="/CRUD/productos.html" class="price__cta">Comprar</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">ISO 45001</p>
+                    <h3 class="price__price">$9900</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Gestión de la seguridad</p>
+                        <p class="price__features">Salud en el trabajo</p>
+                        <p class="price__features">Reducción de costos</p>
+                    </div>
+
+                    <a href="/CRUD/productos.html" class="price__cta">Comprar</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="services" id="servicios">
+            <div class="services__container container">
+                <h2 class="subtitle">Nuestros Servicios</h2>
+                <h1 class="subtitle2">Certifique con nosotros</h1>
+                <p class="services__paragraph">En SII brindamos servicio para la certificación de las normas internacionales ISO. Contamos con más de 15 años de experiencia en la implementación, mantenimiento y mejora en diferentes tipos de organización.</p>
+
+                <section class="services__container">
+                    <article class="services__padding">
+                        <div class="services__description">
+                            <h3 class="services__title">ISO 9001 | Sistema de gestión de la calidad (SGC)
+                                <span class="services__arrow">
+                                    <img src="./img/chevron-up.svg" class="services__img">
+                                </span>
+                            </h3>
+
+                            <p class="services__show">Es importante saber que la certificación del SGC permite la gestión de los procesos para obtener productos y servicios de calidad para la satisfacción de los requisitos de los clientes, legales y reglamentarios aplicables permitiendo de esta manera posicionar a su empresa en mercados cada vez más exigentes.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__padding">
+                        <div class="services__description">
+                            <h3 class="services__title">ISO 14001 | Gestión ambiental
+                                <span class="services__arrow">
+                                    <img src="./img/chevron-up.svg" class="services__img">
+                                </span>
+                            </h3>
+
+                            <p class="services__show">La implementación de la norma ayuda a la gestión de los procesos cuidando el ambiente, tiene un alto impacto social en el entorno de desempeño de la organización, las organizaciones que implementan la norma logran un alto reconocimiento en la sociedad así como acceder a mercados exigentes.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__padding">
+                        <div class="services__description">
+                            <h3 class="services__title">ISO 45001 | Gestión de la seguridad y salud en el trabajo (SST)
+                                <span class="services__arrow">
+                                    <img src="./img/chevron-up.svg" class="services__img">
+                                </span>
+                            </h3>
+
+                            <p class="services__show">En SII brindamos servicio de consultoría para el cumplimiento legal así como para la implementación de la norma internacional. La norma permite que las organizaciones puedan proporcionar lugares de trabajo seguro y saludable previendo las lesiones y el deterioro de la salud de las personas, reduciendo significativamente los costos laborales por licencias médicas.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__padding">
+                        <div class="services__description">
+                            <h3 class="services__title">ISO 13485 | Gestión de la calidad para equipos médicos
+                                <span class="services__arrow">
+                                    <img src="./img/chevron-up.svg" class="services__img">
+                                </span>
+                            </h3>
+
+                            <p class="services__show">Esta norma internacional especifica los requisitos de un sistema de gestión de la calidad cuando una organización precise demostrar su capacidad para proporcionar productos sanitarios y servicios relacionados que cumplan regularmente los requisitos del cliente y los reglamentarios aplicables, tales como la disposición BPF 3266/13 de la ANMAT.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__padding">
+                        <div class="services__description">
+                            <h3 class="services__title">Evaluación de proveedores
+                                <span class="services__arrow">
+                                    <img src="./img/chevron-up.svg" class="services__img">
+                                </span>
+                            </h3>
+
+                            <p class="services__show">En un mercado cada vez más competitivo es necesario la evaluación y mejora de toda la cadena productiva de la organización, es por ello que desde SII brindamos servicio para el seguimiento del desempeño de los procesos externos.</p>
+                        </div>
+                    </article>
+
+                    <article class="services__padding">
+                        <div class="services__description">
+                            <h3 class="services__title">Inspección, verificación y control de bienes y servicios
+                                <span class="services__arrow">
+                                    <img src="./img/chevron-up.svg" class="services__img">
+                                </span>
+                            </h3>
+
+                            <p class="services__show">El servicio de SII permite a las empresas agregar valor a sus productos, verificando la calidad y cantidad de los mismos. Asegurando además el cumplimiento tanto de requerimientos/estándares internacionales como de especificaciones entre las partes involucradas.</p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+
+            
+        </section>
+
+        <section class="form" id="contacto">
+           <form class="form__form" action="#" method="POST" @submit.prevent="validarFormulario">
+             <h2 class="form__container">Consulta</h2>
+             <input type="text" placeholder="Nombre" class="form__input" v-model="nombre" :class="{ 'form__input--invalid': nombreInvalido }">
+             <input type="email" placeholder="Email" class="form__input" name="_replyto" v-model="email" :class="{ 'form__input--invalid': emailInvalido }">
+             <textarea placeholder="Mensaje" class="form__input form__input--message" v-model="mensaje"></textarea>
+             <input type="submit" value="Enviar" class="form__submit" :class="{ 'form__submit--red': nombreInvalido || emailInvalido, 'form__submit--green': formularioCompleto && !nombreInvalido && !emailInvalido, 'form__submit--black': camposVacios }">
+        
+           </form>
+         </section>
+    </main>
+    
+    <footer class="footer">
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/veronicahassen/" target="_blank" class="footer__icons"><img src="./img/linkedin.svg" class="footer__img"></a>
+                <a href="https://wa.me/541121836922?text=" target="_blank" class="footer__icons"><img src="./img/whatsapp.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; 2023 | Verónica Hassen</h3>
+        </section>
+    </footer>
+    <script src="./js/nav.js"></script>
+    <script src="./js/services.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/envioFormulario.js"></script>
+</body>
+</html>
