@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Mis productos</h1>
+    <button id="boton-cargar">Cargar producto</button>
+    
+    <div class="form-container">
+        <form id="formulario-cargar">
+            <h2>Cargar Producto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="cargar-nombre">
+            
+            <label for="imagen">Imagen:</label>
+            <input type="text" id="cargar-imagen">
+            
+            <label for="precio">Precio:</label>
+            <input type="text" id="cargar-precio">
+            
+            <label for="stock">Stock:</label>
+            <input type="text" id="cargar-stock">
+            
+            <button type="submit" id="cargar-boton">Cargar producto</button>
+        </form>
+    </div>
+    <div class="cards-container" id="cards-container"></div>
+
+    <div class="form-container">
+        <form id="formulario-modificar">
+            <h2>Modificar Producto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="modificar-nombre">
+
+            <label for="imagen">Imagen:</label>
+            <input type="text" id="modificar-imagen">
+
+            <label for="precio">Precio:</label>
+            <input type="text" id="modificar-precio">
+
+            <label for="stock">Stock:</label>
+            <input type="text" id="modificar-stock">
+
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.card-content {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra a la tarjeta */
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+.card-buttons button {
+background-color: transparent;
+border: none;
+cursor: pointer;
+transition: transform 0.3s ease; /* Agrega una transición suave al efecto hover */
+}
+
+.card-buttons button:hover {
+transform: scale(1.1); /* Cambia el tamaño del botón al hacer hover */
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: #aec9fc;
+}
+
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+
+
+.modify-button img, .delete-button img{
+  width: 20px;
+
+}
+
+#boton-cargar{
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: green;
+    background-color: rgb(78, 182, 78);
+    color: white;
+}
+
+#boton-cargar:hover {
+    background-color: rgb(113, 212, 113);
+}
+
+.form-container {
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor del formulario según sea necesario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #9abaf7;
+    border-radius: 10px;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6c82e2;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  #formulario-modificar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  
